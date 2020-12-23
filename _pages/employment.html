@@ -10,3 +10,26 @@ author_profile: true
 {% for post in site.employment reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+<div id="graph-container"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@gitgraph/js"></script>
+
+<script>
+  // Get the graph container HTML element.
+  const graphContainer = document.getElementById("graph-container");
+
+  // Instantiate the graph.
+  const gitgraph = GitgraphJS.createGitgraph(graphContainer);
+
+  // Simulate git commands with Gitgraph API.
+  const master = gitgraph.branch("master");
+  master.commit("Went To EPFL");
+
+  const develop = master.branch("Internships");
+  develop.commit({ subject: "Hyperloop Internship 1" , hash:"", displayAuthor: false})
+
+  develop.commit("Hyperloop Internship 2");
+
+  master.merge(develop).tag("now");
+</script>

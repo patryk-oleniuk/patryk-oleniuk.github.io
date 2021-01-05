@@ -24,32 +24,30 @@ Hello! Welcome to my portfolio page. I'm a generalist software engineer focused 
 
 Here's a short summary of what I do professionally (also, check out [my resume](https://patr\k-oleniuk.github.io/cv/)):
 - Back-End Software:
-<details>
-<summary>(expand)</summary> 
   - REST and GraphQL,
   - go (gorilla/mux), python (Flask, Django).
-</details>
 - MLOps & Data Engineering:
   - Docker,
   - Airflow,
   - MLflow, Sagemaker,
-  - AWS Suite (S3, EC2, Athena, Flink), Heroku
+  - AWS Suite (S3, EC2, Athena, Flink), Heroku,
   - PostgreSQL, MongoDB,
   - Spark, Koalas, Databricks, Dask.
 - Machine Learning & Data Science:
   - pandas, tensorflow / keras, scikit-learn mainly for [supervised learning](images/supervised-learning.png),
-  - visulization: plotly, DASH, Streamlit, Bokeh,
+  - visulization: plotly, DASH, Streamlit, Bokeh, D3,
   - JavaScript for serving ML models and custom visualisation (project in progress).
 - Embedded devices ( Yes, I can blink the <span class="blinking">&#9673;</span> LED and more ):
-  - embedded C / C++, bootloader (U-Boot), even VHDL/Verilog if needed,
   - connected sensor networks, embedded &harr; cloud interfaces.
+  - embedded C / C++, bootloader (U-Boot), even VHDL/Verilog if needed,
+
 
 
 <p style='text-align: justify;'> 
 ... and many more. I'm used to wearing many hats, and just doing what's needed at the moment, and learning on the job. Speaking about that: I &#x2764; learning new things, as well as  <a href="teaching/">teaching</a> and <a href="talks/">talking</a> about them. 
 <br>
 <br>
-I can speak Polish, English and ~French at work. I am currently learning Chinese and JavaScript.
+I can speak English, Polish and ~French at work. I am currently learning Chinese and JavaScript.
 </p> 
 
 <style>

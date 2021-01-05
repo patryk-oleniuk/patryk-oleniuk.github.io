@@ -1,35 +1,34 @@
 ---
 layout: archive
-title: "Employment History"
+title: "Education & Employment Timeline"
 permalink: /employment/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.employment reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<div id="graph-container"></div>
+<style>
+  #cy {
+  width: 300px;
+  height: 300px;
+  display: block;
+}
+</style>
 
 <script src="https://cdn.jsdelivr.net/npm/@gitgraph/js"></script>
+<script type="module" src="/_pages/employment.js"></script>
 
-<script>
-  // Get the graph container HTML element.
-  const graphContainer = document.getElementById("graph-container");
 
-  // Instantiate the graph.
-  const gitgraph = GitgraphJS.createGitgraph(graphContainer);
+<div style="width: 100%;">
+  <div style="width: 110px; float: left;"> 
+    <div id="graph-container2" style="display: block; margin-bottom: -20px; -webkit-mask-image: linear-gradient(to top, black 95%, transparent 100%);"></div>
+    <div id="graph-container" style="display: block;  -webkit-mask-image: linear-gradient(to bottom, black 95%, transparent 100%);"></div>
+  </div>
+  <div style="margin-left: 110px; background-color: white; background:white; position: relative"> 
+    <span style="line-height:43px;"><br></span> 
+    {% for post in site.employment reversed %}
 
-  // Simulate git commands with Gitgraph API.
-  const master = gitgraph.branch("master");
-  master.commit("Went To EPFL");
-
-  const develop = master.branch("Internships");
-  develop.commit({ subject: "Hyperloop Internship 1" , hash:"", displayAuthor: false})
-
-  develop.commit("Hyperloop Internship 2");
-
-  master.merge(develop).tag("now");
-</script>
+      {% include archive-single.html %}
+    {% endfor %}
+  </div>
+</div>

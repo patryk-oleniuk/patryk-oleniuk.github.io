@@ -7,4 +7,4 @@ date: 2020-10-01
 venue: 'US Patent Office'
 citation: 'J. Wei, S. Raghavan, <b>P. Oleniuk</b>'
 ---
-This patent protects the simulation software work I did for Virgin Hyperloop.This patent protects the simulation software work I did for Virgin Hyperloop.This patent protects the simulation software work I did for Virgin Hyperloop.This patent protects the simulation software work I did for Virgin Hyperloop.This patent protects the simulation software work I did for Virgin Hyperloop.This patent protects the simulation software work I did for Virgin Hyperloop.This patent protects the simulation software work I did for Virgin Hyperloop.This patent protects the simulation software work I did for Virgin Hyperloop.
+This patent protects the simulation orchestration software I developed for Virgin Hyperloop.

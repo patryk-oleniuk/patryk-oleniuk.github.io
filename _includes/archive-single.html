@@ -12,8 +12,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item" style="display: inline-block;
-white-space: nowrap;">
+<div class="{{ include.type | default: "list" }}__item" >
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -46,17 +45,17 @@ white-space: nowrap;">
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'employment' %}
           {% if post.date_to == 'now' %}
-            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>  </strong> <time datetime="{{ post.date_from | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date_from | default: "1900-01-01" | date: "%B %Y" }}</time> - Now </p>
+            <p class="page__meta"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>  </strong> <time datetime="{{ post.date_from | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date_from | default: "1900-01-01" | date: "%B %Y" }}</time> - Now,
           {% elsif post.date_to %}
-            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>  </strong> <time datetime="{{ post.date_from | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date_from | default: "1900-01-01" | date: "%B %Y" }}</time> - <time datetime="{{ post.date_to | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date_to | default: "1900-01-01" | date: "%B %Y" }}</time> </p>
+            <p class="page__meta"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>  </strong> <time datetime="{{ post.date_from | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date_from | default: "1900-01-01" | date: "%B %Y" }}</time> - <time datetime="{{ post.date_to | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date_to | default: "1900-01-01" | date: "%B %Y" }}</time>, 
           {% else %}
-            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>  </strong> <time datetime="{{ post.date_from | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date_from | default: "1900-01-01" | date: "%B %Y" }}</time> </p>
+            <p class="page__meta"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>  </strong> <time datetime="{{ post.date_from | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date_from | default: "1900-01-01" | date: "%B %Y" }}</time>,
           {% endif %}
-          <p class="page__date"><strong>
+          <strong>
           <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> </strong>{{ post.location }} 
         </p>
         {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+         <p class="page__meta"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %Y" }}</time></p>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}

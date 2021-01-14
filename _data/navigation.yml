@@ -3,17 +3,18 @@ main:
   - title: "Resume"
     url: /cv/
 
+  - title: "Jobs & Schools"
+    url: /employment/
+
   - title: "Publications & Patents"
     url: /publications/
 
   - title: "Talks & Articles"
     url: /talks/   
 
-  - title: "Personal Projects"
-    url: /portfolio/
-
-  - title: "Employment"
-    url: /employment/
-
   - title: "Teaching"
     url: /teaching/  
+
+  - title: "Projects"
+    url: /portfolio/
+

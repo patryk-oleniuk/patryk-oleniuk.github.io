@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "'Pat' Patryk Oleniuk"
   avatar           : "profilowe2.png"
-  bio              : "Generalist Software Engineer, focused on AI / ML apps and MLOps."
-  location         : "Los Angeles, CA, USA <br> &nbsp &nbsp &nbsp Open to relocation <br> &nbsp &nbsp &nbsp Open to remote work"
+  bio              : "Generalist Software Engineer, focused on AI apps and MLOps."
+  location         : 
   employer         : 
   pubmed           : 
   googlescholar    : 

@@ -10,19 +10,19 @@ redirect_from:
 
 <p style='text-align: justify;'> 
 
-Hello! Welcome to my portfolio page. I'm a generalist software engineer focused on AI/ML adoption and MLOps. As most engineers, I am here to build, fix and improve things. I learn voraciously and execute fast. I get passionate at work, and excited when I see things work as designed + fix if they're <a href="images/bad-software.gif">not</a>. Be it a <text class="tooltip"><a href="">plasma speaker</a> 
+Hello! Welcome to my portfolio page. I'm a generalist software engineer focused on AI/ML adoption and MLOps. As most engineers, I am here to build, fix and improve things. I get passionate at work, and excited when I see things work as designed + fix if they're <a href="images/bad-software.gif">not</a>. 
+<br>
+Be it a <text class="tooltip"><a href="portfolio/2008-wave-electricity">water-waves electricity generator</a> 
   <span class="tooltiptext" style="width: 320px">(build in my parents garage at age 15)</span>
-</text>, <text class="tooltip"><a href="">facial emotion recognition</a> 
-  <span class="tooltiptext" style="width: 230px">(personal project)</span>
-</text> or test software for the <text class="tooltip"><a href="">Large Hadron Collider at CERN</a> 
-  <span class="tooltiptext" style="width: 270px">(one of my nerdy-est employers)</span>
+</text>, <text class="tooltip"><a href="">facial emotion recognition DNN</a> 
+  <span class="tooltiptext" style="width: 260px">(one of my personal projects)</span>
+</text> or test software for the <text class="tooltip"><a href="/employment/2015-02-01-cern">Large Hadron Collider at CERN</a> 
+  <span class="tooltiptext" style="width: 270px">(one of my nerdiest employers)</span>
 </text>. Generally, I like working for R&D and hardware-related software projects. 
 
 </p>
 
-
-
-Here's a short summary of what I do professionally (also, check out [my resume](https://patr\k-oleniuk.github.io/cv/)):
+Here's a short summary of what I do professionally (also, check out [my resume](cv/)):
 - Back-End Software:
   - REST and GraphQL,
   - go (gorilla/mux), python (Flask, Django).

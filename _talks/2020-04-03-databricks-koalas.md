@@ -1,9 +1,9 @@
 ---
-title: "Scaling Pandas with Apache Spark + Koalas for ML at Virgin Hyperloop One"
+title: "Scaling Pandas with Apache Spark + Koalas for ML at Virgin Hyperloop"
 collection: talks
 type: "Video-Tutorial"
 permalink: /talks/2020-04-03-databricks-koalas
-venue: '<a href="https://www.youtube.com/embed/hYvHg2PwUIc"> YouTube</a>'
+venue: '<a href="https://www.youtube.com/"> YouTube</a>'
 date: 2020-04-03
 location: "in collaboration with Databricks"
 ---

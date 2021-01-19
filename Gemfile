@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 
+# source 'https://rubygems.org'
+# gem 'github-pages'
+gem 'rdiscount'
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -17,6 +21,8 @@ gem "github-pages", group: :jekyll_plugins
 # gem "jekyll"
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+gem "jekyll-mermaid"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

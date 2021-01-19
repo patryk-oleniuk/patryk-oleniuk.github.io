@@ -14,11 +14,11 @@ Hello! Welcome to my portfolio page. I'm a generalist software engineer focused 
 <br>
 Be it a <text class="tooltip"><a href="portfolio/2008-wave-electricity">water-waves electricity generator</a> 
   <span class="tooltiptext" style="width: 320px">(build in my parents garage at age 15)</span>
-</text>, <text class="tooltip"><a href="">facial emotion recognition DNN</a> 
+</text>, <text class="tooltip"><a href="portfolio/2017-facial-emotion-dnn">facial emotion recognition DNN</a> 
   <span class="tooltiptext" style="width: 260px">(one of my personal projects)</span>
 </text> or test software for the <text class="tooltip"><a href="/employment/2015-02-01-cern">Large Hadron Collider at CERN</a> 
   <span class="tooltiptext" style="width: 270px">(one of my nerdiest employers)</span>
-</text>. Generally, I like working for R&D and hardware-related software projects. 
+</text>. Generally, I like working for Research & Development projects. 
 
 </p>
 

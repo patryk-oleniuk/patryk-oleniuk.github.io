@@ -37,7 +37,13 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.collection == 'employment' %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Dates:  </strong> <time datetime="{{ post.date_from | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date_from | default: "1900-01-01" | date: "%B %Y" }}</time> - <time datetime="{{ post.date_to | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date_to | default: "1900-01-01" | date: "%B %Y" }}</time> </p>
+          {% if page.date_to == 'now' %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>  </strong> <time datetime="{{ page.date_from | default: "1900-01-01" | date_to_xmlschema }}">{{ page.date_from | default: "1900-01-01" | date: "%B %Y" }}</time> - Now
+          {% elsif page.date_to %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>  </strong> <time datetime="{{ page.date_from | default: "1900-01-01" | date_to_xmlschema }}">{{ page.date_from | default: "1900-01-01" | date: "%B %Y" }}</time> - <time datetime="{{ page.date_to | default: "1900-01-01" | date_to_xmlschema }}">{{ page.date_to | default: "1900-01-01" | date: "%B %Y" }}</time> 
+          {% else %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>  </strong> <time datetime="{{ page.date_from | default: "1900-01-01" | date_to_xmlschema }}">{{ page.date_from | default: "1900-01-01" | date: "%B %Y" }}</time>
+          {% endif %}
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}

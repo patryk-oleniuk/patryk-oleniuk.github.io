@@ -1,19 +1,20 @@
 # main links links
 main:
-  - title: "Teaching"
-    url: /teaching/  
+  - title: "Resume"
+    url: /cv/
 
-  - title: "Talks & Articles"
-    url: /publications/   
-    
+  - title: "Jobs & Schools"
+    url: /employment/
+
   - title: "Publications & Patents"
     url: /publications/
 
-  - title: "Personal Projects"
+  - title: "Talks & Articles"
+    url: /talks/   
+
+  - title: "Teaching"
+    url: /teaching/  
+
+  - title: "Projects"
     url: /portfolio/
 
-  - title: "Employment"
-    url: /employment/
-    
-  - title: "Resume"
-    url: /cv/

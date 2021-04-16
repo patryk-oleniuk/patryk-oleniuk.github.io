@@ -1,9 +1,9 @@
 ---
-title: "Hyperloop -- Software Engineer"
+title: "Virgin Hyperloop -- Software Engineer"
 collection: employment
 location: "Los Angeles, USA"
 permalink: /employment/2018-11-01-hyperloop
-date_from: 2018-11-01
+date_from: 2018-10-01
 date_to: now
 ---
 After MSc graduation, decided to stay in the US and continue my work at Hyperloop. I work for Machine Intelligence Team, Data Automation & Insights group, focused on generative transportation system design. Wearing many hats: Software Architect, Back-End, Data Engineer.

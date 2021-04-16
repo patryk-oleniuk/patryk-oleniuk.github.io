@@ -10,7 +10,7 @@ redirect_from:
 
 <p style='text-align: justify;'> 
 
-Hello! Welcome to my portfolio page. I'm a generalist software engineer focused on AI/ML adoption and MLOps. As most engineers, I am here to build, fix and improve things. I get passionate at work, and excited when I see things work as designed + fix if they're <a href="images/bad-software.gif">not</a>. 
+Hello! Welcome to my portfolio page. I'm a generalist software engineer focused on AI adoption. As most engineers, I am here to build, fix and improve things. I get passionate at work, and excited when I see things work as designed + fix if they're <a href="images/bad-software.gif">not</a>. 
 <br>
 Be it a <text class="tooltip"><a href="portfolio/2008-wave-electricity">water-waves electricity generator</a> 
   <span class="tooltiptext" style="width: 320px">(build in my parents garage at age 15)</span>
@@ -38,8 +38,10 @@ Here's a short summary of what I do professionally (also, check out [my resume](
   - visulization: plotly, DASH, Streamlit, Bokeh, D3,
   - JavaScript for serving ML models and custom visualisation (project in progress).
 - Embedded devices ( Yes, I can blink the <span class="blinking">&#9673;</span> LED and more ):
-  - connected sensor networks, embedded &harr; cloud interfaces.
-  - embedded C / C++, bootloader (U-Boot), even VHDL/Verilog if needed,
+  - connected sensor networks, embedded &harr; cloud interfaces,
+  - embedded C / C++, bootloader (U-Boot), e.g. OTA Software Update systems or camera interfaces,
+  - basic VHDL/Verilog on Xilinx and Altera, including SoC drivers and DMAs,
+  - basic electrical measurements (Oscilloscope, Logic Analyzer) & PCB debugging.
 
 
 
@@ -47,8 +49,10 @@ Here's a short summary of what I do professionally (also, check out [my resume](
 ... and many more. I'm used to wearing many hats, and just doing what's needed at the moment, and learning on the job. Speaking about that: I &#x2764; learning new things, as well as  <a href="teaching/">teaching</a> and <a href="talks/">talking</a> about them. 
 <br>
 <br>
-I can speak English, Polish and ~French at work. I am currently learning Chinese and JavaScript.
+At work I can speak English, Polish and ~French. After work, I can (sometimes) succeed to communiate in basic German, Italian, Russian. I am currently learning Chinese and JavaScript.
+<br>
 </p> 
+
 
 <style>
 .tooltip {

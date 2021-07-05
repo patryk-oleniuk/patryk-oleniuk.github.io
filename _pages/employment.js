@@ -123,6 +123,11 @@ newlife.commit({
         })//.tag('now')
 
 newlife.commit({
+          subject: 'SpaceX',
+          body: txt,
+        })//.tag('now')
+
+newlife.commit({
           subject: '',
           renderDot: renderDot,
         })

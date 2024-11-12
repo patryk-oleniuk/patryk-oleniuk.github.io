@@ -8,4 +8,6 @@ venue: 'US Patent Office'
 location: "USA"
 citation: 'J. Wei, S. Raghavan, <b>P. Oleniuk</b>'
 ---
-This patent protects the simulation orchestration software I developed for Virgin Hyperloop.
+This patent was filed to protect the simulation orchestration software I co-developed for Virgin Hyperloop.
+
+[https://patents.google.com/patent/US20210248290A1](https://patents.google.com/patent/US20210248290A1)

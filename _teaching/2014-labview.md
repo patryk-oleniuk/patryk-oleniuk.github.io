@@ -3,7 +3,7 @@ title: "LabVIEW Teacher at WUT"
 collection: teaching
 type: "National Instruments Ambassador Programme"
 permalink: /teaching/2014-labview
-venue: "Warsaw Univrsity of Technology"
+venue: "Warsaw University of Technology"
 date: 2014-10-01
 location: "Warsaw, Poland"
 ---

@@ -6,11 +6,10 @@ author_profile: true
 ---
 
 ### Programming & Development
-
 - [Python Keyword-Only Arguments](https://vegardstikbakke.com/python-keyword-only/) - Understanding Python's keyword-only parameters
 - [Exploiting Python Pickle](https://davidhamann.de/2020/04/05/exploiting-python-pickle/) - Security implications of Python's pickle module
 - [Docker Names Generator](https://github.com/moby/moby/blob/master/pkg/namesgenerator/names-generator.go) - How Docker generates container names
-
+- [On Rake Collections and Software Engineering](https://flameeyes.blog/2020/05/07/on-rake-collections-and-software-engineering/) - The metaphor of "rakes" in software development and the importance of cleaning up complexity
 
 ### CSS Pain
 - [CSS is Fun Again](https://pdx.su/blog/2023-10-25-css-is-fun-again/) - Modern CSS features and techniques

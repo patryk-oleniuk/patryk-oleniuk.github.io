@@ -1,0 +1,40 @@
+{
+  "name": "Jekyll Development",
+  "image": "mcr.microsoft.com/devcontainers/ruby:3.2",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "18"
+    },
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.vscode-json",
+        "rebornix.Ruby",
+        "castwide.solargraph",
+        "kaiwood.endwise",
+        "misogi.ruby-rubocop",
+        "ms-vscode.vscode-markdownlint",
+        "ms-vscode.vscode-yaml"
+      ],
+      "settings": {
+        "ruby.useLanguageServer": true,
+        "ruby.lint": {
+          "rubocop": true
+        },
+        "ruby.format": "rubocop"
+      }
+    }
+  },
+  "forwardPorts": [4000],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll Server",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "./setup_dev_container.sh",
+  "postStartCommand": "nohup ./start_server.sh > /tmp/jekyll.log 2>&1 &",
+  "remoteUser": "vscode"
+}

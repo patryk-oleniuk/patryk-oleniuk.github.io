@@ -8,7 +8,7 @@ date: 2024-10-25
 location: Online
 ---
 
-Talked about my intercontinental journey after CERN, the feelings and lessons learned, and shared a lot of job aplication/resume tips.
+Talked about my intercontinental journey after CERN, the feelings and lessons learned, and shared a lot of job application/resume tips.
 
 <img src='/images/MOOAT_marketing.jpeg' width="560px" >
 

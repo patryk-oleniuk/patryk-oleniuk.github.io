@@ -5,7 +5,7 @@ collection: portfolio
 date: 2008-02-01
 ---
 
-This project is missing further description. Under contruction.
+This project is missing further description. Under construction.
 
 <br>
 <img src='/images/wave-electricity-2.gif'>

@@ -12,6 +12,9 @@ author_profile: true
 - [Door Opening By Knock Pattern](https://www.youtube.com/watch?v=zE5PGeh2K9k)
 - [SpaceX GitHub](https://github.com/spaceexplorationtechnologies) - SpaceX's open source projects, including Starlink stuff, U-boot, etc
 
+### AI
+- [Tigran's AI blog](https://tigran.substack.com/) - Writing on AI
+
 ### Software Engineering Phylosphy
 - [On Rake Collections and Software Engineering](https://flameeyes.blog/2020/05/07/on-rake-collections-and-software-engineering/) - how to be a good software teammate
 - [Wat - Destroy All Software Talk](https://www.destroyallsoftware.com/talks/wat) - Gary Bernhardt's famous JavaScript talk

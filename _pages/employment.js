@@ -125,7 +125,12 @@ newlife.commit({
 newlife.commit({
           subject: 'SpaceX',
           body: txt,
-        })//.tag('now')
+        })
+
+newlife.commit({
+          subject: 'Netflix',
+          body: txt,
+        })
 
 newlife.commit({
           subject: '',

@@ -8,4 +8,4 @@ date: 2014-10-01
 location: "Warsaw, Poland"
 ---
 
-Propagating the knowledge I got from [the summer internship at NI](/employment/2014-07-01-ni) to other students. Organised by me, materials prepared by NI. I ran multiple weekly 3-month-length prep classes to get students to pass the CLAD exam (NI certification). More than 200 people came to my classes and many succesfully passed the exam.
+Propagating the knowledge I got from [the summer internship at NI](/employment/2014-07-01-ni) to other students. Organised by me, materials prepared by NI. I ran multiple weekly 3-month-length prep classes to get students to pass the CLAD exam (NI certification). More than 200 people came to my classes and many successfully passed the exam.

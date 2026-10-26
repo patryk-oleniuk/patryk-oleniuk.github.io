@@ -12,11 +12,11 @@ redirect_from:
 
 Heyyy! I'm a software engineer focused on data, full-stack, and other software "around" AI to make it behave. As most engineers, I am here to build, fix and improve things. I get passionate at work, and excited when I see things work as designed + fix if they're <a href="images/bad-software.gif">not</a>.
 <br><br>
-I'm open to new roles in full-stack internal tools, data platforms and the data flywheel, and ML and AI infrastructure (training and evals). Same for fleet ops and telemetry, and physical AI (robots, drones, autonomous vehicles) on the software side.
+I'm open to new roles in full-stack tools supporting AI, the data flywheel, AI infrastructure (training, evals, or ops), fleet ops and telemetry, and physical AI.
 <br><br>
-I was at <a href="/employment/2024-10-01-new-role">Netflix</a> until October 2026. I worked on analytics and operations software for AI components, and helped prepare Netflix for a fleet of millions of agents. A lot of that was full-stack internal apps and evals, plus the streaming underneath.
+I was at <a href="/employment/2024-10-01-new-role">Netflix</a> until October 2026. I worked on analytics and operations software for AI components, and helped prepare Netflix for a fleet of millions of agents. A lot of that was full-stack internal apps, and Kafka / data streaming into and out of the models for online model observability.
 <br><br>
-Before that I led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> that scaled 100x on customers (50k <span class="growth-arrow">&#8594;</span> 5M+) and 10x on satellites with the fleet. Day to day that was fleet automation and telemetry for the people running the constellation.
+Before that I led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> that scaled 100x on customers (50k <span class="growth-arrow">&#8594;</span> 5M+) and 10x on satellites with the fleet. The work was full-stack and data pipelines for fleet automation: thousands of alerts a day, and gigabytes of telemetry per second, for operators running the Starlink constellation.
 
 </p>
 
@@ -27,6 +27,7 @@ Here are some things I can do (also, check out [my resume](cv/)):
 - Led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> for about five years. Helped scale customers 100x (50k <span class="growth-arrow">&#8594;</span> 5M+) and satellites 10x with the fleet.
 - About a year at <a href="/employment/2024-10-01-new-role">Netflix</a>, on analytics and operations software for AI components. Helped prepare Netflix for a fleet of millions of agents.
 - Unified free ML logging libraries into one path, saving ~$5M/year. Lots of ML data streaming with Flink, Kafka, Parquet, and Spark SQL.
+- At <a href="/employment/2015-02-01-cern">CERN</a>, helped with test software for the reliability of the Large Hadron Collider.
 - Also a background in electronics, robotics, and space, and yes, I can blink the <span class="blinking">&#9673;</span> LED.
 
 ## Stack

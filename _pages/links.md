@@ -32,6 +32,7 @@ author_profile: true
 - [Superwhisper](https://superwhisper.com/) - Voice to text
 - [Handy](https://handy.computer/) - Speech to text
 - [Pi (agent harness)](https://pi.dev/) - Agent harness
+- [OpenUI](https://www.openui.com/) - Open standard for generative UI
 
 ### Misc
 - [The days are long but the decades are short](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short) - Sam Altman's life advice at 30

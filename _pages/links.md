@@ -14,6 +14,10 @@ author_profile: true
 
 ### AI
 - [Tigran's AI blog](https://tigran.substack.com/) - Writing on AI
+- [rea](https://github.com/morluto/rea) - Reverse engineer anything with agents
+- [Autopilot (kcd-skills)](https://github.com/kentcdodds/kcd-skills/blob/main/skills/autopilot/SKILL.md) - Kent C. Dodds' skill for running a coding agent on autopilot
+- [Pi (agent harness)](https://pi.dev/) - Agent harness
+- [OpenUI](https://www.openui.com/) - Open standard for generative UI
 
 ### Software Engineering Philosophy
 - [On Rake Collections and Software Engineering](https://flameeyes.blog/2020/05/07/on-rake-collections-and-software-engineering/) - how to be a good software teammate
@@ -24,6 +28,11 @@ author_profile: true
 - [CSS is Fun Again](https://pdx.su/blog/2023-10-25-css-is-fun-again/) - Modern CSS features and techniques
 - [Josh Comeau's CSS Guide](https://www.joshwcomeau.com/css/) - Comprehensive CSS tutorials and tips
 - [Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) - Learn flexbox with interactive examples
+
+### Tools
+- [Rectangle](https://rectangleapp.com/) - macOS window manager
+- [Superwhisper](https://superwhisper.com/) - Voice to text
+- [Handy](https://handy.computer/) - Speech to text
 
 ### Misc
 - [The days are long but the decades are short](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short) - Sam Altman's life advice at 30

@@ -35,8 +35,8 @@ author_profile: true
 - [Handy](https://handy.computer/) - Speech to text
 
 ### Profiles
-- [X](https://x.com/PatrykOleniuk) - @PatrykOleniuk
-- [Substack](https://poleniuk.substack.com) - @poleniuk
+- [X](https://x.com/PatrykOleniuk)
+- [Substack](https://poleniuk.substack.com)
 
 ### Misc
 - [The days are long but the decades are short](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short) - Sam Altman's life advice at 30

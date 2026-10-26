@@ -193,6 +193,15 @@ body:hover .visually-hidden button {
   margin-right: 0.5em;
 }
 
+/* Substack is not in the bundled Font Awesome brands font. */
+.icon-substack {
+  display: inline-block;
+  width: 1.25em;
+  height: 1em;
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
 /* social icons*/
 
 .social-icons {
@@ -274,6 +283,10 @@ body:hover .visually-hidden button {
 
   .fa-soundcloud {
     color: $soundcloud-color;
+  }
+
+  .icon-substack {
+    color: $substack-color;
   }
 
   .fa-stack-exchange,

@@ -34,6 +34,10 @@ author_profile: true
 - [Superwhisper](https://superwhisper.com/) - Voice to text
 - [Handy](https://handy.computer/) - Speech to text
 
+### Profiles
+- [X](https://x.com/PatrykOleniuk) - @PatrykOleniuk
+- [Substack](https://poleniuk.substack.com) - @poleniuk
+
 ### Misc
 - [The days are long but the decades are short](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short) - Sam Altman's life advice at 30
 - [How to Build a Unicorn From Scratch – and Walk Away with Nothing](https://www.tumblr.com/heidiroizen/118473647305/how-to-build-a-unicorn-from-scratch-and-walk) - Startup financing and the importance of understanding terms over valuations.

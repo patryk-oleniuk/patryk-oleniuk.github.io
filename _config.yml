@@ -58,7 +58,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : 
+  username               : "PatrykOleniuk"
 facebook:
   username               :
   app_id                 :
@@ -111,7 +111,8 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "PatrykOleniuk"
+  substack         : "https://poleniuk.substack.com"
   vine             :
   weibo            :
   xing             :

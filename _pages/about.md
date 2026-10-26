@@ -12,7 +12,7 @@ redirect_from:
 
 Heyyy! I'm a software engineer focused on data, full-stack, and other software "around" AI to make it behave. As most engineers, I am here to build, fix and improve things. I get passionate at work, and excited when I see things work as designed + fix if they're <a href="images/bad-software.gif">not</a>.
 <br><br>
-I was at <a href="/employment/2024-10-01-new-role">Netflix</a> until October 2026. There I led unification of three ML data logging libraries into a single one processing 50M events/sec (~$2M/yr), plus caching that cut unnecessary recompute (~$3M/yr). I built internal full-stack apps for AI observability (evals, feature drift, feature store, and analytics around ML features) and full-stack tooling for internal agent harnesses and managed agents (Arize, Braintrust), managing a fleet of millions of agents. Before that I led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> that scaled 100x on customers (50k→5M+) and 10x on satellites with the fleet. I've also worked at a <a href="/employment/2018-11-01-hyperloop">Hyperloop</a> startup and at <a href="/employment/2015-02-01-cern">CERN</a> (European Org. for Nuclear Research in Geneva).
+I was at <a href="/employment/2024-10-01-new-role">Netflix</a> until October 2026. There I led unification of three ML data logging libraries into a single one processing 50M events/sec (~$2M/yr), plus caching that cut unnecessary recompute (~$3M/yr). A lot of that was ML data streaming with Flink, and big-data warehouse work with Kafka, Parquet, and Spark / Spark SQL. I also worked on analytics and operations software for AI components (evals, feature drift, feature store), and helped build full-stack tooling for internal agent harnesses and managed agents (a fleet of millions of agents). Before that I led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> that scaled 100x on customers (50k <span class="growth-arrow">&#8594;</span> 5M+) and 10x on satellites with the fleet. I've also worked at a <a href="/employment/2018-11-01-hyperloop">Hyperloop</a> startup and at <a href="/employment/2015-02-01-cern">CERN</a> (European Org. for Nuclear Research in Geneva).
 <br><br>
 I'm open to roles in AI observability, ML platform, and data + backend around AI.
 
@@ -22,18 +22,16 @@ Here are some things I can do (also, check out [my resume](cv/)):
 
 ## Highlights
 
-- Unified three ML data logging libraries into one path at 50M events/sec (~$2M/yr), and cut unnecessary recompute with caching (~$3M/yr).
-- Built internal full-stack apps for AI observability: evals, feature drift, feature store, and analytics around ML features (Arize, Braintrust).
-- Built full-stack tooling for internal agent harnesses and managed agents, managing a fleet of millions of agents.
-- Led fleet management software at SpaceX / Starlink that scaled 100x on customers (50k→5M+) and 10x on satellites with the fleet.
-- Cut Starlink alert resolution time 5x on a rebuild ingesting 5M events/sec (Java, Flink, C#, Kafka).
-- Hardware when that's the actual bug: sensor networks, OTA updates, and basic FPGA. Yes, I can blink the <span class="blinking">&#9673;</span> LED and more.
+- Led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> that scaled 100x on customers (50k <span class="growth-arrow">&#8594;</span> 5M+) and 10x on satellites with the fleet.
+- Worked at <a href="/employment/2015-02-01-cern">CERN</a> and helped with LHC reliability.
+- **AI:** analytics and operations software for AI components (evals, feature drift, feature store), and helped build full-stack tooling for internal agent harnesses and managed agents (a fleet of millions of agents). Unified three ML logging libraries into one path at 50M events/sec (~$2M/yr) and cut recompute with caching (~$3M/yr). Lots of ML data streaming with Flink, and warehouse work with Kafka, Parquet, and Spark / Spark SQL.
+- Electronics and embedded software (yes, I can blink the <span class="blinking">&#9673;</span> LED and more).
 
 ## Stack
 
 - **Web / services:** Python (Flask, Django, FastAPI), Go, Java, Scala, C# / dotnet, C++, TypeScript, Angular, React. APIs: REST, GraphQL, protobuf, grpc.
-- **Data / ML platform:** Metaflow, MLflow, Sagemaker, Kafka, Flink, Spark, Airflow, Databricks, Docker / k8s, AWS (S3, EC2, Athena), PostgreSQL, MongoDB, CockroachDB, Elasticsearch, Datomic.
-- **ML / LLMs:** pandas, tensorflow / keras, scikit-learn, mainly for [supervised learning](images/supervised-learning.png). Viz: plotly, DASH, Streamlit, Bokeh, D3. Evals and AI observability (Arize, Braintrust): feature drift, feature store, analytics around ML features. Full-stack tooling for internal agent harnesses and managed agents. OpenTelemetry collectors / SDKs.
+- **Data / ML platform:** Metaflow, MLflow, Sagemaker, Kafka, Flink, Spark / Spark SQL, Parquet, Airflow, Databricks, Docker / k8s, AWS (S3, EC2, Athena), PostgreSQL, MongoDB, CockroachDB, Elasticsearch, Datomic.
+- **AI:** pandas, tensorflow / keras, scikit-learn, mainly for [supervised learning](images/supervised-learning.png). Viz: plotly, DASH, Streamlit, Bokeh, D3. Evals, feature drift, feature store. Arize, Braintrust, OpenTelemetry collectors / SDKs.
 - **Embedded:** connected sensor networks, embedded &harr; cloud interfaces, embedded C / C++, bootloader (U-Boot) and OTA, basic VHDL/Verilog on Xilinx and Altera (SoC drivers and DMAs), oscilloscope, logic analyzer, and PCB debug.
 
 
@@ -42,7 +40,7 @@ Here are some things I can do (also, check out [my resume](cv/)):
 ... and some more. I'm used to wearing many hats, and just doing what's needed at the moment, and learning on the job. Speaking about that: I &#x2764; learning new things, as well as  <a href="teaching/">teaching</a> and <a href="talks/">talking</a> about them. 
 <br>
 <br>
-At work I can speak English, Polish and ~French. After work, I can (sometimes) succeed at communicating in basic German, Italian, Russian. I am currently learning Chinese and JavaScript.
+At work I can speak English, Polish and ~French. After work, I can (sometimes) succeed at communicating in basic German, Italian, Russian. I am apparently learning Chinese and <a href="https://www.destroyallsoftware.com/talks/wat">JavaScript</a>.
 <br>
 </p> 
 
@@ -73,7 +71,10 @@ At work I can speak English, Polish and ~French. After work, I can (sometimes) s
 }
 
 .blinking{
-	animation:blinkingText 1.8s infinite;
+	animation: blinkingText 1.8s infinite;
+	-webkit-animation: blinkingText 1.8s infinite;
+	transition: none;
+	-webkit-transition: none;
 }
 @keyframes blinkingText{
 	0%{		color: #000f;	}
@@ -81,5 +82,10 @@ At work I can speak English, Polish and ~French. After work, I can (sometimes) s
 	50%{	color: #0006;	}
 	99%{	color: #0006;	}
 	100%{	color: #000f;	}
+}
+.growth-arrow{
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant-emoji: text;
+	font-style: normal;
 }
 </style>

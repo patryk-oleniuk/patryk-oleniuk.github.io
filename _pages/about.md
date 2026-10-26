@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About"
-excerpt: "Software engineer for data, full-stack, and backend around AI. Ex-Netflix AI observability and SpaceX Starlink. Open to ML platform roles."
+excerpt: "Engineer for data, AI tooling, and backend. Ex-Netflix and SpaceX Starlink fleet software. Open to data, AI tooling, backend, and fleet roles."
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,9 +12,11 @@ redirect_from:
 
 Heyyy! I'm a software engineer focused on data, full-stack, and other software "around" AI to make it behave. As most engineers, I am here to build, fix and improve things. I get passionate at work, and excited when I see things work as designed + fix if they're <a href="images/bad-software.gif">not</a>.
 <br><br>
-I was at <a href="/employment/2024-10-01-new-role">Netflix</a> until October 2026. There I led unification of three ML data logging libraries into a single one processing 50M events/sec (~$2M/yr), plus caching that cut unnecessary recompute (~$3M/yr). A lot of that was ML data streaming with Flink, and big-data warehouse work with Kafka, Parquet, and Spark / Spark SQL. I also worked on analytics and operations software for AI components (evals, feature drift, feature store), and helped build full-stack tooling for internal agent harnesses and managed agents (a fleet of millions of agents). Before that I led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> that scaled 100x on customers (50k <span class="growth-arrow">&#8594;</span> 5M+) and 10x on satellites with the fleet. I've also worked at a <a href="/employment/2018-11-01-hyperloop">Hyperloop</a> startup and at <a href="/employment/2015-02-01-cern">CERN</a> (European Org. for Nuclear Research in Geneva).
+I was at <a href="/employment/2024-10-01-new-role">Netflix</a> until October 2026. I worked on analytics and operations software for AI components, and helped prepare Netflix for a fleet of millions of agents.
 <br><br>
-I'm open to roles in AI observability, ML platform, and data + backend around AI.
+Before that I led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> that scaled 100x on customers (50k <span class="growth-arrow">&#8594;</span> 5M+) and 10x on satellites with the fleet.
+<br><br>
+I'm open to new roles in data, AI tooling, backend, and fleet operations.
 
 </p>
 
@@ -23,9 +25,9 @@ Here are some things I can do (also, check out [my resume](cv/)):
 ## Highlights
 
 - Led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> that scaled 100x on customers (50k <span class="growth-arrow">&#8594;</span> 5M+) and 10x on satellites with the fleet.
-- Worked at <a href="/employment/2015-02-01-cern">CERN</a> and helped with LHC reliability.
-- **AI:** analytics and operations software for AI components (evals, feature drift, feature store), and helped build full-stack tooling for internal agent harnesses and managed agents (a fleet of millions of agents). Unified three ML logging libraries into one path at 50M events/sec (~$2M/yr) and cut recompute with caching (~$3M/yr). Lots of ML data streaming with Flink, and warehouse work with Kafka, Parquet, and Spark / Spark SQL.
-- Electronics and embedded software (yes, I can blink the <span class="blinking">&#9673;</span> LED and more).
+- Analytics and operations software for <a href="/employment/2024-10-01-new-role">Netflix</a> AI components. Helped prepare Netflix for a fleet of millions of agents.
+- Unified free ML logging libraries into one path, saving ~$5M/year. Lots of ML data streaming with Flink, Kafka, Parquet, and Spark SQL.
+- Also a background in electronics and robotics, and yes, I can blink the <span class="blinking">&#9673;</span> LED.
 
 ## Stack
 

@@ -11,7 +11,7 @@ site_theme               : "default" # "default", "air", "sunrise", "mint", "dir
 title                    : "Pat's Personal Page"
 title_separator          : "-"
 name                     : &name "'Pat' Patryk Oleniuk"
-description              : &description "pats personal page"
+description              : &description "Engineer for internal tools, data platforms, and ML infrastructure. Ex-Netflix and SpaceX Starlink. Open to fleet ops and physical AI."
 url                      : "https://patryk-oleniuk.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "patryk-oleniuk/patryk-oleniuk.github.io"
@@ -74,7 +74,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom". No GA4 id configured.
   google:
     tracking_id          :
 

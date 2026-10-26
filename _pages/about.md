@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About"
-excerpt: "About me"
+excerpt: "Engineer for internal tools, data platforms, and ML infrastructure. Ex-Netflix and SpaceX Starlink. Open to fleet ops and physical AI."
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,33 +12,30 @@ redirect_from:
 
 Heyyy! I'm a software engineer focused on data, full-stack, and other software "around" AI to make it behave. As most engineers, I am here to build, fix and improve things. I get passionate at work, and excited when I see things work as designed + fix if they're <a href="images/bad-software.gif">not</a>.
 <br><br>
-At <a href="/employment/2024-10-01-new-role">Netflix</a>, I led unification of three ML data logging libraries into a single one processing 50M events/sec (~$2M/yr), plus caching that cut unnecessary recompute (~$3M/yr), and built full-stack apps for AI observability. Before that I led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> that scaled 100x on customers (50k→5M+) and 10x on satellites with the fleet. I've also worked at a <a href="/employment/2018-11-01-hyperloop">Hyperloop</a> startup and at <a href="/employment/2015-02-01-cern">CERN</a> (European Org. for Nuclear Research in Geneva).
+I'm open to new roles in full-stack tools supporting AI, the data flywheel, AI infrastructure (training, evals, or ops), fleet ops and telemetry, and physical AI.
+<br><br>
+I was at <a href="/employment/2024-10-01-new-role">Netflix</a> until October 2026. I worked on analytics and operations software for AI components, and helped prepare Netflix for a fleet of millions of agents. A lot of that was full-stack internal apps, and Kafka / data streaming into and out of the models for online model observability.
+<br><br>
+Before that I led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> that scaled 100x on customers (50k <span class="growth-arrow">&#8594;</span> 5M+) and 10x on satellites with the fleet. The work was full-stack and data pipelines for fleet automation: thousands of alerts a day, and gigabytes of telemetry per second, for operators running the Starlink constellation.
 
 </p>
 
 Here are some things I can do (also, check out [my resume](cv/)):
-- Full stack / web software:
-  - Python (Flask, Django, FastAPI), Go, Java, Scala, C# / dotnet, C++,
-  - APIs: REST, GraphQL, protobuf, grpc,
-  - Typescript, Angular, React.
-- MLOps & Data Engineering:
-  - Metaflow, MLflow, Sagemaker,
-  - Kafka, Flink, Spark, Airflow, Databricks,
-  - Docker / k8s,
-  - AWS (S3, EC2, Athena),
-  - PostgreSQL, MongoDB, CockroachDB, Elasticsearch, Datomic.
-- Machine Learning & Data Science:
-  - pandas, tensorflow / keras, scikit-learn mainly for [supervised learning](images/supervised-learning.png),
-  - visualization: plotly, DASH, Streamlit, Bokeh, D3,
-- LLMs:
-  - evals and observability (Braintrust, Arize),
-  - agent frameworks,
-  - OpenTelemetry collectors / SDKs.
-- Hardware / Embedded Software ( Yes, I can blink the <span class="blinking">&#9673;</span> LED and more ):
-  - connected sensor networks, embedded &harr; cloud interfaces,
-  - embedded C / C++, bootloader (U-Boot), e.g. OTA Software Update systems,
-  - basic VHDL/Verilog on Xilinx and Altera, including SoC drivers and DMAs,
-  - basic electrical measurements (Oscilloscope, Logic Analyzer) & PCB debugging.
+
+## Highlights
+
+- Led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> for about five years. Helped scale customers 100x (50k <span class="growth-arrow">&#8594;</span> 5M+) and satellites 10x with the fleet.
+- About a year at <a href="/employment/2024-10-01-new-role">Netflix</a>, on analytics and operations software for AI components. Helped prepare Netflix for a fleet of millions of agents.
+- Unified free ML logging libraries into one path, saving ~$5M/year. Lots of ML data streaming with Flink, Kafka, Parquet, and Spark SQL.
+- At <a href="/employment/2015-02-01-cern">CERN</a>, helped with test software for the reliability of the Large Hadron Collider.
+- Also a background in electronics, robotics, and space, and yes, I can blink the <span class="blinking">&#9673;</span> LED.
+
+## Stack
+
+- **Web / services:** Python (Flask, Django, FastAPI), Go, Java, Scala, C# / dotnet, C++, TypeScript, Angular, React. APIs: REST, GraphQL, protobuf, grpc.
+- **Data / ML platform:** Metaflow, MLflow, Sagemaker, Kafka, Flink, Spark / Spark SQL, Parquet, Airflow, Databricks, Docker / k8s, AWS (S3, EC2, Athena), PostgreSQL, MongoDB, CockroachDB, Elasticsearch, Datomic.
+- **AI:** pandas, tensorflow / keras, scikit-learn, mainly for [supervised learning](images/supervised-learning.png). Viz: plotly, DASH, Streamlit, Bokeh, D3. Evals, feature drift, feature store. Arize, Braintrust, OpenTelemetry collectors / SDKs.
+- **Embedded:** connected sensor networks, embedded &harr; cloud interfaces, embedded C / C++, bootloader (U-Boot) and OTA, basic VHDL/Verilog on Xilinx and Altera (SoC drivers and DMAs), oscilloscope, logic analyzer, and PCB debug.
 
 
 
@@ -46,7 +43,7 @@ Here are some things I can do (also, check out [my resume](cv/)):
 ... and some more. I'm used to wearing many hats, and just doing what's needed at the moment, and learning on the job. Speaking about that: I &#x2764; learning new things, as well as  <a href="teaching/">teaching</a> and <a href="talks/">talking</a> about them. 
 <br>
 <br>
-At work I can speak English, Polish and ~French. After work, I can (sometimes) succeed at communicating in basic German, Italian, Russian. I am currently learning Chinese and JavaScript.
+At work I can speak English, Polish and ~French. After work, I can (sometimes) succeed at communicating in basic German, Italian, Russian. I am apparently learning Chinese and <a href="https://www.destroyallsoftware.com/talks/wat">JavaScript</a>.
 <br>
 </p> 
 
@@ -77,7 +74,10 @@ At work I can speak English, Polish and ~French. After work, I can (sometimes) s
 }
 
 .blinking{
-	animation:blinkingText 1.8s infinite;
+	animation: blinkingText 1.8s infinite;
+	-webkit-animation: blinkingText 1.8s infinite;
+	transition: none;
+	-webkit-transition: none;
 }
 @keyframes blinkingText{
 	0%{		color: #000f;	}
@@ -85,5 +85,10 @@ At work I can speak English, Polish and ~French. After work, I can (sometimes) s
 	50%{	color: #0006;	}
 	99%{	color: #0006;	}
 	100%{	color: #000f;	}
+}
+.growth-arrow{
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant-emoji: text;
+	font-style: normal;
 }
 </style>

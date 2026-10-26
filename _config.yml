@@ -7,6 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
+site_theme               : "default" # "default", "air", "sunrise", "mint", "dirt", "contrast". Light/dark follows the visitor's OS unless they use the nav toggle.
 title                    : "Pat's Personal Page"
 title_separator          : "-"
 name                     : &name "'Pat' Patryk Oleniuk"

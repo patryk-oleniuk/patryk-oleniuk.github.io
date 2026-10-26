@@ -33,10 +33,10 @@
       {% endif %}
     </h2>
     {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.date %}<p class="page__meta"> <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %Y" }}, <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ post.location }}  </p>{% endif %}
-    {% if post.citation %}<p class="page__meta" itemprop="description"> <i class="fas fa-user-friends" aria-hidden="true"></i>  {{post.citation }}  {% endif %}
+    {% if post.date %}<p class="page__meta"> <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %Y" }}, <i class="fa fa-fw fa-location-dot" aria-hidden="true"></i> {{ post.location }}  </p>{% endif %}
+    {% if post.citation %}<p class="page__meta" itemprop="description"> <i class="fas fa-user-group" aria-hidden="true"></i>  {{post.citation }}  {% endif %}
     {% if post.venue %}<p class="page__meta" itemprop="description"> <i class="fa fa-book" aria-hidden="true"></i> {{ post.venue }} {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
 

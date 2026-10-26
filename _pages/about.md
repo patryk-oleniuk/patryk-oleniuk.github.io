@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About"
-excerpt: "Engineer for data, AI tooling, and backend. Ex-Netflix and SpaceX Starlink fleet software. Open to data, AI tooling, backend, and fleet roles."
+excerpt: "Engineer for internal tools, data platforms, and ML infrastructure. Ex-Netflix and SpaceX Starlink. Open to fleet ops and physical AI."
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,11 +12,11 @@ redirect_from:
 
 Heyyy! I'm a software engineer focused on data, full-stack, and other software "around" AI to make it behave. As most engineers, I am here to build, fix and improve things. I get passionate at work, and excited when I see things work as designed + fix if they're <a href="images/bad-software.gif">not</a>.
 <br><br>
-I was at <a href="/employment/2024-10-01-new-role">Netflix</a> until October 2026. I worked on analytics and operations software for AI components, and helped prepare Netflix for a fleet of millions of agents.
+I'm open to new roles in full-stack internal tools, data platforms and the data flywheel, and ML and AI infrastructure (training and evals). Same for fleet ops and telemetry, and physical AI (robots, drones, autonomous vehicles) on the software side.
 <br><br>
-Before that I led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> that scaled 100x on customers (50k <span class="growth-arrow">&#8594;</span> 5M+) and 10x on satellites with the fleet.
+I was at <a href="/employment/2024-10-01-new-role">Netflix</a> until October 2026. I worked on analytics and operations software for AI components, and helped prepare Netflix for a fleet of millions of agents. A lot of that was full-stack internal apps and evals, plus the streaming underneath.
 <br><br>
-I'm open to new roles in data, AI tooling, backend, and fleet operations.
+Before that I led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> that scaled 100x on customers (50k <span class="growth-arrow">&#8594;</span> 5M+) and 10x on satellites with the fleet. Day to day that was fleet automation and telemetry for the people running the constellation.
 
 </p>
 
@@ -24,10 +24,10 @@ Here are some things I can do (also, check out [my resume](cv/)):
 
 ## Highlights
 
-- Led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> that scaled 100x on customers (50k <span class="growth-arrow">&#8594;</span> 5M+) and 10x on satellites with the fleet.
-- Analytics and operations software for <a href="/employment/2024-10-01-new-role">Netflix</a> AI components. Helped prepare Netflix for a fleet of millions of agents.
+- Led fleet management software at <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a> for about five years. Helped scale customers 100x (50k <span class="growth-arrow">&#8594;</span> 5M+) and satellites 10x with the fleet.
+- About a year at <a href="/employment/2024-10-01-new-role">Netflix</a>, on analytics and operations software for AI components. Helped prepare Netflix for a fleet of millions of agents.
 - Unified free ML logging libraries into one path, saving ~$5M/year. Lots of ML data streaming with Flink, Kafka, Parquet, and Spark SQL.
-- Also a background in electronics and robotics, and yes, I can blink the <span class="blinking">&#9673;</span> LED.
+- Also a background in electronics, robotics, and space, and yes, I can blink the <span class="blinking">&#9673;</span> LED.
 
 ## Stack
 

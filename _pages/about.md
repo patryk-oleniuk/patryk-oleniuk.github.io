@@ -20,8 +20,8 @@ Here are some things I can do (also, check out [my resume](cv/)):
 
 ## Highlights
 
-- At <a href="/employment/2024-10-01-new-role">Netflix</a>, I built tooling for a fleet of millions of agents. I worked on analytics and operations for AI, with full-stack internal apps and Kafka for online model observability. I unified free ML logging into one path. That work saved about $5 million a year. The stack included Flink, Kafka, Parquet, and Spark SQL.
-- At <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a>, I led fleet management software. I helped scale customers 100x (50k <span class="growth-arrow">&#8594;</span> 5M+) and satellites 10x. The full-stack work used gRPC, Python, and C. Data pipelines, including Kafka, supported fleet automation. The tools handled thousands of alerts a day and gigabytes of telemetry per second. They also ran anomaly detection for constellation operations.
+- At <a href="/employment/2024-10-01-new-role">Netflix</a>, I built tooling for a fleet of millions of agents and ML models powering recommendations and GenAI workflows. I worked on analytics and operations, on a lot of full-stack internal apps and Kafka for online model observability (detecting drift, null inflation, missing data). I unified 3 ML logging libraries into one path, which saved about $5 million a year.
+- At <a href="/employment/2021-06-01-spacex">SpaceX / Starlink</a>, I led a small team of rockstars for fleet management software. We helped scale customers 100x (50k <span class="growth-arrow">&#8594;</span> 5M+) and satellites/other ground assets 20x. We used gRPC, Python, C++ and C#. The tools supported hundreds of operators receiving thousands of alerts a day and sifting through gigabytes of telemetry per second. The app we built is still key for safe and reliable 24/7 operations of the Starlink fleet.
 - At <a href="/employment/2015-02-01-cern">CERN</a>, I helped with LHC reliability by developing test software and hardware for power converter controls.
 - Additionally, I have experience with electronics, robotics, and space. I can blink the <span class="blinking">&#9673;</span> LED, debug a PCB, or program an FPGA.
 

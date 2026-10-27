@@ -12,7 +12,7 @@ redirect_from:
 
 Heyyy! I'm a software engineer focused on data, full-stack, and other software "around" AI to make it behave. As most engineers, I am here to build, fix and improve things. I get passionate at work, and excited when I see things work as designed + fix if they're <a href="images/bad-software.gif">not</a>.
 <br><br>
-I'm open to new roles in full-stack tools supporting AI, the data flywheel, AI infrastructure (training, evals, or ops), fleet ops and telemetry, and physical AI.
+I'm open for roles building full-stack tools around AI systems: the data flywheel, observability, evaluation and model lifecycle. Also interested in physical AI, fleet management and telemetry problems at scale.
 
 </p>
 

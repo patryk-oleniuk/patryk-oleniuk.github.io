@@ -18,6 +18,16 @@ author_profile: true
 - [Autopilot (kcd-skills)](https://github.com/kentcdodds/kcd-skills/blob/main/skills/autopilot/SKILL.md) - Kent C. Dodds' skill for running a coding agent on autopilot
 - [Pi (agent harness)](https://pi.dev/) - Agent harness
 - [OpenUI](https://www.openui.com/) - Open standard for generative UI
+- [Mapping the Mind of a Large Language Model](https://www.anthropic.com/research/mapping-mind-language-model) - Anthropic on interpretable features inside Claude
+- [How Some Malicious AI Skills Hide](https://blog.virustotal.com/2026/10/how-some-malicious-ai-skills-hide.html) - VirusTotal on skills that hide instructions from reviewers
+- [skill-shaper](https://github.com/overment/skills/blob/main/skills/skill-shaper/SKILL.md) - Skill for creating or reshaping agent skills so they trigger on the right requests
+
+### Quotes
+> I like ambitious ideas, simple systems, and software that feels obvious. Do not preserve complexity just because it already exists. Do not introduce machinery because it looks architecturally impressive. Understand the real constraint, then fight for the smallest model that makes the correct behavior unsurprising.
+>
+> Channel both "measure twice, cut once" and "yagni". Fight scope creep. Try to honor the dev's intent in both a minimal and realistic fashion.
+
+— [Theo, T3 Code AGENTS.md](https://github.com/pingdotgg/t3code/blob/main/AGENTS.md). Excellent example of steering agents, but also great dev philosophy.
 
 ### Software Engineering Philosophy
 - [On Rake Collections and Software Engineering](https://flameeyes.blog/2020/05/07/on-rake-collections-and-software-engineering/) - how to be a good software teammate

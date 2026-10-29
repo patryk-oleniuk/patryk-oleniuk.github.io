@@ -38,7 +38,7 @@ Here are some things I can do (also, check out [my resume](cv/)):
 ... and some more. I'm used to wearing many hats, and just doing what's needed at the moment, and learning on the job. Speaking about that: I &#x2764; learning new things, as well as  <a href="teaching/">teaching</a> and <a href="talks/">talking</a> about them. 
 <br>
 <br>
-At work I can speak English, Polish and ~French. After work, I can (sometimes) succeed at communicating in basic German, Italian, Russian. I am apparently learning Chinese and <a href="https://www.destroyallsoftware.com/talks/wat">JavaScript</a>.
+At work I can speak English, Polish and ~French. After work, I can (sometimes) succeed at communicating in basic German, Italian, Russian. I am currently learning Chinese and <a href="https://www.destroyallsoftware.com/talks/wat">JavaScript</a>.
 <br>
 </p> 
 

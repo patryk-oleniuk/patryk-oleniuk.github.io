@@ -44,6 +44,7 @@ author_profile: true
 - [Rectangle](https://rectangleapp.com/) - macOS window manager
 - [Superwhisper](https://superwhisper.com/) - Voice to text
 - [Handy](https://handy.computer/) - Speech to text
+- [Paper](https://paper.design/) - Connected design canvas that syncs with code and agents
 
 ### Profiles
 - [X](https://x.com/PatrykOleniuk)

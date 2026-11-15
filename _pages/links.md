@@ -34,6 +34,7 @@ author_profile: true
 - [On Rake Collections and Software Engineering](https://flameeyes.blog/2020/05/07/on-rake-collections-and-software-engineering/) - how to be a good software teammate
 - [Wat - Destroy All Software Talk](https://www.destroyallsoftware.com/talks/wat) - Gary Bernhardt's famous JavaScript talk
 - [Is It Worth the Time?](https://xkcd.com/1205) - XKCD 1205
+- [Factory Factory Factory - Why I Hate Frameworks](https://www.fredrikholmqvist.com/pages/why-i-hate-frameworks.html) - Benji Smith on choosing simple tools over heavy frameworks
 
 ### CSS Pain
 - [CSS is Fun Again](https://pdx.su/blog/2023-10-25-css-is-fun-again/) - Modern CSS features and techniques

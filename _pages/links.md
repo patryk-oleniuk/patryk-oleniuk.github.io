@@ -22,6 +22,8 @@ author_profile: true
 - [How Some Malicious AI Skills Hide](https://blog.virustotal.com/2026/10/how-some-malicious-ai-skills-hide.html) - VirusTotal on skills that hide instructions from reviewers
 - [skill-shaper](https://github.com/overment/skills/blob/main/skills/skill-shaper/SKILL.md) - Skill for creating or reshaping agent skills so they trigger on the right requests
 - [Slopalytics](https://slopalytics.com/) - Compare AI models by intelligence, cost, speed, and how much thinking they do
+- [Pstack guide, part 1 - poteto](https://x.com/poteto/status/2094457600259842065) - Lauren's guide to Pstack, a super-skill for Grok
+- [Pstack guide, part 2 - poteto](https://x.com/poteto/status/2097732320606507506) - The second part of the guide
 
 ### Quotes
 > I like ambitious ideas, simple systems, and software that feels obvious. Do not preserve complexity just because it already exists. Do not introduce machinery because it looks architecturally impressive. Understand the real constraint, then fight for the smallest model that makes the correct behavior unsurprising.

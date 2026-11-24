@@ -1,6 +1,6 @@
 ---
 title: "Back Corner Steps Configurator"
-excerpt: "Design custom wooden steps for an odd-angled patio corner, drawn in true perspective on a photo of the real space. <br/><a href='https://clever-entremet-f4ed2c.netlify.app'><img src='/images/back-stairs-configurator.png' alt='Back Corner Steps Configurator'></a>"
+excerpt: "Design custom wooden steps for an odd-angled patio corner, drawn in true perspective on a photo of the real space. <br/><a href='https://clever-entremet-f4ed2c.netlify.app'><img src='/images/back-stairs-configurator.gif' alt='Back Corner Steps Configurator'></a>"
 collection: portfolio
 date: 2026-11-20
 ---
@@ -9,6 +9,6 @@ Custom steps for an odd-angled patio corner are hard to picture from a sketch, a
 
 Built as one self-contained HTML file in vanilla JavaScript with no dependencies. It projects the 3D steps onto the photo using a camera model fitted to the retaining wall edges. The wood finish renders came from a separate Python pipeline using NumPy and Pillow.
 
-<a href='https://clever-entremet-f4ed2c.netlify.app'><img src='/images/back-stairs-configurator.png' alt='Back Corner Steps Configurator'></a>
+<a href='https://clever-entremet-f4ed2c.netlify.app'><img src='/images/back-stairs-configurator.gif' alt='Back Corner Steps Configurator'></a>
 
 Live demo: [https://clever-entremet-f4ed2c.netlify.app](https://clever-entremet-f4ed2c.netlify.app)

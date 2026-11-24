@@ -1,6 +1,6 @@
 ---
 title: "SwitchBot Wall Planner"
-excerpt: "Plan a wall of E Ink art frames at true scale on a photo of your real wall, before you buy or drill. <br/><a href='https://dapper-naiad-5bbf14.netlify.app/'><img src='/images/switchbot-wall-planner.png' alt='SwitchBot Wall Planner'></a>"
+excerpt: "Plan a wall of E Ink art frames at true scale on a photo of your real wall, before you buy or drill. <br/><a href='https://dapper-naiad-5bbf14.netlify.app/'><img src='/images/switchbot-wall-planner.gif' alt='SwitchBot Wall Planner'></a>"
 collection: portfolio
 date: 2026-11-18
 ---
@@ -9,7 +9,7 @@ Plan a wall of E Ink art frames before you buy anything or drill a single hole. 
 
 Built as one self-contained HTML, CSS and JavaScript file with no framework or backend. Perspective uses a 3x3 homography rendered with CSS matrix3d. The wall photo was prepared in Python with Pillow and NumPy.
 
-<a href='https://dapper-naiad-5bbf14.netlify.app/'><img src='/images/switchbot-wall-planner.png' alt='SwitchBot Wall Planner'></a>
+<a href='https://dapper-naiad-5bbf14.netlify.app/'><img src='/images/switchbot-wall-planner.gif' alt='SwitchBot Wall Planner'></a>
 
 Live demo: [https://dapper-naiad-5bbf14.netlify.app/](https://dapper-naiad-5bbf14.netlify.app/)
 
